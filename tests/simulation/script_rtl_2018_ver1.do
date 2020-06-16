@@ -1,5 +1,5 @@
-vlog -work work -vopt -sv +define+VERIFICACION -cover sbcet3 {../../RAM_DP.sv}
-vlog -work work -vopt -sv +define+VERIFICACION -cover sbcet3 {../../FIFO32x2_2018_mejor_jer.sv}
+vlog -work work -vopt -sv +define+VERIFICACION -cover sbcet3 {RAM_DP.sv}
+vlog -work work -vopt -sv +define+VERIFICACION -cover sbcet3 {FIFO32x2_2018_mejor_jer.sv}
 vlog -reportprogress 300 -work work {fifo_ports_2013_ver1.sv}
 vlog -work work -vopt -sv +define+VERIFICACION -cover sbcet3 {fifo_top_duv_2013_ver1.sv}
 vlog -reportprogress 300 -work work {fifo_top_test_2014_ver2.sv}
