@@ -1,7 +1,10 @@
 # INSTRUCCIONES
 
 
-Este repositorio ha sido creado para que os sirva como punto de partida de vuestra primera tarea. Además os debe de servir para el equipo para tener un control de versiones adecuado y por último nos servirá como alojamiento del entregable que constará fundamentalmente y necesariamente de los dos subdirectorios identificados como entregables y que contienen a su vez instriucciones específicas para hacer una entrega correcta.
+Este repositorio ha sido creado para :
+-Servir como punto de partida de vuestra primera tarea. 
+-Servir para el equipo con el fin de tener un control de versiones adecuado y por último 
+-Servir como alojamiento del entregable que constará fundamentalmente y necesariamente de los dos subdirectorios identificados como entregables y que contienen a su vez instrucciones específicas para hacer una entrega correcta.
 
 Se os ha colocado un ejemplo de entregable para que veais cómo debería ser la entrega
 
@@ -14,7 +17,7 @@ Se os proporciona el componente fundamental del data-path que no es otro que un 
 
 Se os proporciona un ejemplo completo de verificación con systemverilog de una FIFO, en este caso basada en una RAM de doble puerto.
 
-Si quieres ejecutar el ejemplo, muévete al directorio ejemplo_entregable/verificacion_entegable y ejecuta
+Si quereis ejecutar el ejemplo, muévete al directorio ejemplo_entregable/verificacion_entegable y ejecuta
 
 vsim -do script_rtl_2018_ver1.do
 
@@ -22,5 +25,5 @@ en caso de trabajar con linux
 
 En el caso de trabajar con windows , ejecuta el mismo script una vez arrancado questasim
 
-En el caso que quieras utilizar este banco de pruebas en vuestro diseño, basta con que añadáis vuestros ficheros de diseño al directorio de ejemplo y que sustituyáis en el fichero fifo_top_duv (que se encuentraen el subdirectorio de verificación)  la FIFO instanciada.
+En el caso que quieras utilizar este banco de pruebas en vuestro diseño, basta con que añadáis vuestros ficheros de diseño al directorio de ejemplo y que sustituyáis en el fichero fifo_top_duv (que se encuentra en el subdirectorio de verificación)  la FIFO instanciada.
 
