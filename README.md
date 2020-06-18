@@ -20,11 +20,13 @@ Se os proporciona un ejemplo completo de verificación con systemverilog de una 
 
 Si quereis ejecutar el ejemplo, muévete al directorio ejemplo_entregable/verificacion_entegable y ejecuta
 
-vsim -do script_rtl_2018_ver1.do
+'vsim -do script_rtl_2018_ver1.do'
 
-en caso de trabajar con linux
+- en caso de trabajar con linux
+- en el caso de trabajar con windows , ejecuta el mismo script una vez arrancado questasim
 
-En el caso de trabajar con windows , ejecuta el mismo script una vez arrancado questasim
-
-En el caso que quieras utilizar este banco de pruebas en vuestro diseño, basta con que añadáis vuestros ficheros de diseño al directorio de ejemplo y que sustituyáis en el fichero fifo_top_duv (que se encuentra en el subdirectorio de verificación)  la FIFO instanciada.
+En el caso que quieras utilizar este banco de pruebas en vuestro diseño:
+1- Añadid vuestros ficheros de diseño al subdirectorio de diseño  del ejemplo
+2- Modificad el script para que compile vuestros ficheros fuente del diseño (en lugar de los de la FIFO basada en RAM)
+3- Y por supuesto no os olvidéis de sustituir en el fichero fifo_top_duv (que se encuentra en el subdirectorio de verificación)  la FIFO instanciada. Ahora debería instanciar vuestra FIFO.
 
