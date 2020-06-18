@@ -3,9 +3,9 @@
 
 
 Este repositorio ha sido creado para :
--Servir como punto de partida de vuestra primera tarea. 
--Servir para el equipo con el fin de tener un control de versiones adecuado y por último 
--Servir como alojamiento del entregable que constará fundamentalmente y necesariamente de los dos subdirectorios identificados como entregables y que contienen a su vez instrucciones específicas para hacer una entrega correcta.
+- Servir como punto de partida de vuestra primera tarea. 
+- Servir para el equipo con el fin de tener un control de versiones adecuado y por último 
+- Servir como alojamiento del entregable que constará fundamentalmente y necesariamente de los dos subdirectorios identificados como entregables y que contienen a su vez instrucciones específicas para hacer una entrega correcta.
 
 Se os ha colocado un ejemplo de entregable para que veais cómo debería ser la entrega
 
