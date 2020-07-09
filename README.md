@@ -28,5 +28,5 @@ Si quereis ejecutar el ejemplo, muévete al directorio ejemplo_entregable/verifi
 En el caso que quieras utilizar este banco de pruebas en vuestro diseño:
 1. Añadid vuestros ficheros de diseño al subdirectorio de diseño  del ejemplo
 2. Modificad el script para que compile vuestros ficheros fuente del diseño (en lugar de los de la FIFO basada en RAM)
-3. Y por supuesto no os olvidéis de sustituir en el fichero fifo_top_duv (que se encuentra en el subdirectorio de verificación)  la FIFO instanciada. Ahora debería instanciar vuestra FIFO.
+3. Y por supuesto no os olvidéis de sustituir en el fichero fifo_top_duv (que se encuentra en el subdirectorio de verificación)  la FIFO instanciada. Ahora debería instanciar vuestra FIFO .
 
