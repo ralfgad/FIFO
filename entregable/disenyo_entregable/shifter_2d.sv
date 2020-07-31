@@ -1,6 +1,7 @@
 module shifter_2d
 
 
+// este es un elemento del data-ptah
 #(parameter tamanyo=32, parameter size=8)
 (
 input clock, //se�al de reloj
@@ -10,7 +11,7 @@ input modo, //salida serie fija o variable
 input [$clog2(tamanyo-1)-1:0] seleccion,
 input [size-1:0]entrada_serie,
 input clear,
-output [size-1:0] salida_serie) ;
+output logic [size-1:0] salida_serie) ;
 
 logic [0:tamanyo-1:][size-1:0] aux;
 
@@ -25,5 +26,4 @@ else
                 aux<={entrada_serie,aux[0:tamanyo-2]};  
 
 assign salida_serie=modo?aux[seleccion]:aux[tamanyo-1];
-
 endmodule
