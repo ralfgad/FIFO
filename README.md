@@ -10,13 +10,13 @@ Este repositorio ha sido creado para :
 Se os ha colocado un ejemplo de entregable para que veais cómo debería ser la entrega
 
 ## Diseño
-Se os proporciona el componente fundamental del data-path que no es otro que un shifter 2D. Este compoenente será descrito, y explicado en las sesiones de teoría y se puede observar que ejercerá todo el papel asociado a la variable "shifter" del siguiente ASM solución de la FIFO
+Se os proporciona el componente fundamental del data-path que no es otro que una memoria RAM de doble puerto. Este componente será descrito, y explicado en las sesiones de teoría y se puede observar que ejercerá todo el papel asociado a la variable "RAM" del siguiente ASM solución de la FIFO
 
-![ASM](imagenes/ASM_shifter_def2.jpg) 
+![ASM](imagenes/ASM_RAM_DP_def.jpg) 
 
 ## Verificación
 
-Se os proporciona un ejemplo completo de verificación con systemverilog de una FIFO, en este caso basada en una RAM de doble puerto.
+Se os proporciona un ejemplo completo de verificación con systemverilog de una FIFO, en este caso también basada en una RAM de doble puerto; pero con un diseño ligeramente diferente al solicitado. Además es una solución carente de estructura clara de Control-Path y Data-Path y los elementos del data-path no son exactamente los mismos que los solicitados en la tarea.
 
 Si quereis ejecutar el ejemplo, muévete al directorio ejemplo_entregable/verificacion_entegable y ejecuta
 
