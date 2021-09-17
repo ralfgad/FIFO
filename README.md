@@ -12,7 +12,7 @@ Se os ha colocado un ejemplo de entregable para que veais cómo debería ser la 
 ## Diseño
 Se os proporciona el componente fundamental del data-path que no es otro que una memoria RAM de doble puerto. Este componente será descrito, y explicado en las sesiones de teoría y se puede observar que ejercerá todo el papel asociado a la variable "RAM" del siguiente ASM solución de la FIFO
 
-![ASM](imagenes/ASM_RAM_DP_def.jpg) 
+![ASM](imagenes/ASM_RAM_DP_def2.jpg) 
 
 ## Verificación
 
